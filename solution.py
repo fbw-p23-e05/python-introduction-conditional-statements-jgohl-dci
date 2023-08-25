@@ -6,8 +6,8 @@ user_input2 = int(input('Enter a number: '))
 user_input3 = int(input('Enter a number: '))
 
 
-if user_input1 == user_input2 and user_input1 == user_input3:
-    print('The triple sum is: ', user_input1 * 3)
+if user_input1 == user_input2 == user_input3:
+    print('The triple sum is: ', (user_input1 * 3) * 3)
 else:
     print('The sum is: ', user_input1 + user_input2 + user_input3)
 
